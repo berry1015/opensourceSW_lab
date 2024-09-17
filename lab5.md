@@ -33,7 +33,7 @@ $ echo ~
 ```
 <br>
 
-## ✨Backslash '\'
+## ✨Backslash '\\'
 > Can be used to ignore line change in command to enter a long command in multiple lines.
 <br>
 
@@ -59,7 +59,7 @@ $ chmod 600 README.md
 ```
 <br>
 
-> Values & Meanings
+> **Values & Meanings**
 ```
 777 (rwxrwxrwx)
 No restrictions on permissions. May do anything. Generally not d desirable setting.  
@@ -118,12 +118,14 @@ $ curl [options] [URL]
 > Searching text within files.  
 > ex) grep "search_term" file.txt  
 > => Searches for the exact 'search_term' within 'file.txt' and prints matching lines.
+<br>
 
 **Command options**
 > '-i': Case-insensitive search (finds "apple" and "Apple")  
 > '-v': Invert the match (finds lines ***not*** containing the search term)  
 > '-n': Display line numbers along with matching lines  
 > '-r': Recursive search (searches through all files in a dir and its subdir)
+<br>
 
 Supports powerful regular expressions for more complex searches.
 > '.*'    : Matches any character('.') zero or more times('\*')
